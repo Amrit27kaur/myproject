@@ -1,0 +1,9 @@
+.images{
+    width:100%;
+    height:400px;
+}
+
+.nav ul li
+{
+    display: inline;
+}
