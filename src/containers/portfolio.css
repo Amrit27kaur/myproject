@@ -1,7 +1,42 @@
-.About us{
-    color: red;
-}
-.h1
+.About
 {
-    color: red;
+    padding-left: 550px;
+}
+.second_row_about
+{
+    height:500px;
+    background-color: darkseagreen;
+    width: 100%;
+}
+.Education
+{
+    padding-left: 550px;
+
+}
+
+.third_row_education
+{
+    height:500px;
+    width:100%;
+    background-color: cornsilk;
+}
+.pro_info
+{
+    width:90%;
+   margin-left: 50px;
+}
+.skill
+{
+    padding-left: 4%;
+    padding-top: 15px;
+}
+
+.girl_image
+{
+margin-top: 80px;
+}
+.paragraph
+{
+    border-style: groove;
+    border-width: 2px;
 }

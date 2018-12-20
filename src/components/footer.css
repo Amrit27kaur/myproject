@@ -1,0 +1,44 @@
+.footer1
+{
+    background-color: #282c34;
+    height: 300px;
+}
+
+.footer2
+{
+    background-color: dimgray;
+    height: 100px;
+}
+.f2
+{
+     padding-left: 550px;
+    margin-top: 100px;
+
+}
+.loc
+{
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.add
+{
+    color: aliceblue;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.add1
+{
+    color: aliceblue;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.web
+{
+    margin-top: 70px;
+    color: aliceblue;
+    padding-left: 20px;
+}

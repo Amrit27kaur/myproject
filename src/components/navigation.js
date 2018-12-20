@@ -1,6 +1,11 @@
 import React from 'react'
 import classes from './navigation.css'
 import LaImg from '../images/la.jpg'
+import Images from '../images/img.jpg'
+
+import Contact from '../containers/contact.js'
+import {Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const navigation = (props) => {
 
@@ -18,25 +23,26 @@ const navigation = (props) => {
 
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={LaImg} alt="Los Angeles" className="images"/>
+                        <img src={LaImg}  className="images"/>
                         <div className="carousel-caption">
+
                             <h3>Amrit Kaur</h3>
                         </div>
                     </div>
                 </div>
+
             </div>
 
-
-            <div className="row">
+            <div className="row nav">
                 <div className="col-lg-12">
             <nav className="navbar navbar-inverse navbar-fixed-top">
-                <div className="container-fluid nav">
+                <div className="container-fluid ">
 
                     <ul className="nav navbar-nav">
-                        <li className="active"><a href="#">Home</a></li>
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
+                        <li className="active"><a href="#"><span className="glyphicon glyphicon-home"> </span>  Home</a></li>
+                        <li><a href="#section_about">About</a></li>
+                        <li><a href="#section_education">Education</a></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </nav>
