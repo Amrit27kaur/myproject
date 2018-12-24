@@ -1,9 +1,10 @@
 import React from 'react'
+;
 import classes from './navigation.css'
 import LaImg from '../images/la.jpg'
 import Images from '../images/img.jpg'
-
-import Contact from '../containers/contact.js'
+import Portfolio from  '../containers/portfolio'
+import Contact from './contact'
 import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 
@@ -39,13 +40,15 @@ const navigation = (props) => {
                 <div className="container-fluid ">
 
                     <ul className="nav navbar-nav">
-                        <li className="active"><a href="#"><span className="glyphicon glyphicon-home"> </span>  Home</a></li>
-                        <li><a href="#section_about">About</a></li>
-                        <li><a href="#section_education">Education</a></li>
+                        <li className="active"><a href="/#"><span className="glyphicon glyphicon-home"> </span>  Home</a></li>
+                        <li><a href="/#section_about">About</a></li>
+                        <li><a href="/#section_education">Education</a></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </nav>
+                    <Route path="/" exact  component={ Portfolio}     />
+                    <Route path="/contact"  component={ Contact}     />
                 </div>
             </div>
 
