@@ -18,8 +18,15 @@ class Portfolio extends Component{
                                 <img src={Images}  className="img-circle girl_image"/>
                             </div>
                             <div className="col-lg-7 col-lg-offset-1 writing">
-                              <h2>Hi, I'm Amrit Kaur</h2>
-                                <p className="paragraph">kgjrigwjgigjwgiw</p>
+                              <h2 className="heading">Hi, I'm Amrit Kaur</h2>
+                                <p className="paragraph">I have always sought out opportunities and challenges that are meaningful
+                                 to me. Although my professional path has taken many twists and turns but i have never stopped engaging my passion
+                                to help others and solve problems.
+                                    <br/>As a Application Developer(Mobile Web Specialist), i enjoy using my obsessive attention to detail,
+                            my unequivocal love for making things and mission-driven work ethic to literally change the world. That's why I'm excited to make a big impact at a
+                            high growth company.</p>
+
+                                <div className="btn btn-primary button"><a href="/Resume.pdf" >Download Resume</a></div>
                             </div>
                         </div>
                     </div>

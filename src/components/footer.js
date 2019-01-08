@@ -17,7 +17,10 @@ const footer = (props) => {
                    <h1 className="web">AROUND THE WEB</h1>
                    <li className="list-inline-item">
                        <a className="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                           <i className="fab fa-fw fa-facebook-f"></i>
+                           <i className="fa fa-facebook-square fb"><a href="https://www.facebook.com/"></a> </i>
+
+                          <i className="	fa fa-github-square github"></i>
+                           <i className="	fa fa-linkedin-square link"></i>
                        </a>
                    </li>
 

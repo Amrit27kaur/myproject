@@ -6,7 +6,7 @@
 {
     height:500px;
     background-color: darkseagreen;
-    width: 100%;
+
 }
 .Education
 {
@@ -17,7 +17,7 @@
 .third_row_education
 {
     height:500px;
-    width:100%;
+
     background-color: cornsilk;
 }
 .pro_info
@@ -37,6 +37,19 @@ margin-top: 80px;
 }
 .paragraph
 {
+    padding-right: 5px;
     border-style: groove;
     border-width: 2px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+
+    font-size: large;
+}
+.heading{
+    padding: 20px;
+}
+.button
+{
+    margin-left: 500px;
+
 }
