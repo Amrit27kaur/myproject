@@ -36,22 +36,21 @@ const navigation = (props) => {
 
             <div className="row nav">
                 <div className="col-lg-12">
-            <nav className="navbar navbar-inverse navbar-fixed-top">
-                <div className="container-fluid ">
+                    <nav className="navbar navbar-inverse navbar-fixed-top">
+                        <div className="container-fluid ">
 
-                    <ul className="nav navbar-nav">
-                        <li className="active"><a href="/#"><span className="glyphicon glyphicon-home"> </span>  Home</a></li>
-                        <li><a href="/#section_about">About</a></li>
-                        <li><a href="/#section_education">Education</a></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </ul>
-                </div>
-            </nav>
+                            <ul className="nav navbar-nav">
+                                <li className="active"><a href="/#"><span className="glyphicon glyphicon-home"> </span>  Home</a></li>
+                                <li><a href="/#section_about">About</a></li>
+                                <li><a href="/#section_education">Education</a></li>
+                                <li><Link to="/contact">Contact</Link></li>
+                            </ul>
+                        </div>
+                    </nav>
                     <Route path="/" exact  component={ Portfolio}     />
                     <Route path="/contact"  component={ Contact}     />
                 </div>
             </div>
-
         </div>
 
     )

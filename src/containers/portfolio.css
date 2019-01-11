@@ -1,25 +1,51 @@
 .About
 {
-    padding-left: 550px;
+    padding-left: 520px;
+    font-weight: bold;
 }
-.second_row_about
+
+.second_row_about{
+
+    height:700px;
+    width:100%;
+    background-color: gray();
+
+
+}
+.spn
 {
-    height:500px;
-    background-color: darkseagreen;
+
+}
+.border
+{
+    font-weight:bold;
+    box-sizing: inherit;
+    border-bottom: 1px solid #eeeeee;
+
+    width: 300px;
+    line-height: 3.0;
 
 }
 .Education
 {
-    padding-left: 550px;
-
+    padding-left: 520px;
+    font-weight: bold;
 }
-
 .third_row_education
 {
-    height:500px;
+    height:650px;
+    background-image: url("../images/skill.jpg");
+    background-repeat: no-repeat;
 
-    background-color: cornsilk;
 }
+
+.fourth_row_education
+{
+    height:650px;
+   background-color: orange;
+
+}
+
 .pro_info
 {
     width:90%;
@@ -28,7 +54,7 @@
 .skill
 {
     padding-left: 4%;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .girl_image
@@ -38,18 +64,43 @@ margin-top: 80px;
 .paragraph
 {
     padding-right: 5px;
-    border-style: groove;
-    border-width: 2px;
+    margin-top: 20px;
     font-weight: bold;
     font-family: "Times New Roman";
 
     font-size: large;
 }
-.heading{
-    padding: 20px;
-}
-.button
+.personal_infor
 {
-    margin-left: 500px;
+    font-weight: bold;
+}
 
+.btn-large {
+    background-color: black;
+    height: 54px;    line-height: 56px;
+    color: #FFF;
+    letter-spacing: .5px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    display: inline-block
+}
+
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.resume-btn
+{
+    margin-top: 30px;
+}
+
+.img
+{
+    width:100%;
+}
+.tit
+{
+    padding-left: 50px;
 }
