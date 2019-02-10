@@ -1,21 +1,71 @@
+.map
+{
+    background-color: rgba(221,206,175,0.13);
+    height:400px;
+}
+.img
+{
+    height: 300px;
+    width:600px;
 
+    margin-left: 300px;
+}
 .fcont
 {
     height: 500px;
-background-image: url("../images/map.jpg");
+    background-color: rgba(221,206,175,0.13);
+
+/*background-image: url("../images/map.jpg");*/
 
 
 }
 
-.cont{
-    padding-left: 550px;
+.cont
+{
+    padding-left: 580px;
+    font-weight: bold;
 }
+
 .first
 {
-    margin-top: 20px;
+    margin-top: 80px;
+   padding-left: 200px;
+
 }
 
 .lcont
 {
-    margin-top: 20px;
+    margin-top: 80px;
+    padding-left: 200px;
+}
+.loca{
+    font-size:24px;
+    color:black;
+    margin-top:30px;
+    margin-left:30px;
+}
+.spn1
+{
+    color:black;
+    padding-left:10px;
+    font-family:Times New Roman, Times, serif;
+    padding-left:60px;
+}
+.spn{
+    color:black;
+    padding-left:10px;
+    font-family:Times New Roman, Times, serif;
+}
+.phone{
+    font-size:24px;
+    color:black;
+    margin-top:30px;
+    margin-left:30px;
+}
+.mail
+{
+    font-size:24px;
+    color:black;
+    margin-top:30px;
+    margin-left:30px;
 }

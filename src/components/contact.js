@@ -7,51 +7,63 @@ class Contact extends Component{
     render() {
 
         return (
-            <div>
-                <div className="col-lg-12 fcont"><h1 className="cont">Contact</h1>
+           <div>
 
-                <div className="col-lg-offset-1 col-lg-3 first">
+                   <div className="row fcont">
+                       <h1 className="cont">Contact</h1>
+                       <div className=" col-lg-4 first">
 
-                    <h4>Email:-</h4>
-                 <h5 >amrit23.sandhu@gmail.com</h5><br/>
-                    <br/>
+                           <i className="fa fa-map-marker loca"
+                              ></i>
+                           <span className="spn">21 Arrow Street,<br/></span>
+                           <span className="spn1">Brampton, ON.</span>
+                            <br/><br/>
 
+                           <i className="fa fa-phone phone"></i>
 
-                    <h4>address:-</h4>
-                    <h5>1 beaconcrest rd,l6y0y8.</h5><br/><br/>
-
-                    <h4>Phone No.:-</h4>
-                    <h5>3659981098</h5>
-
-                </div>
-                <div className="col-lg-7 col-lg-offset-1 lcont">
-
-                    <form>
-                        <div className="col-xs-6">
-                            <input className="form-control" placeholder="Name"/>
-                        </div><br/><br/><br/>
+                           <span className="spn">1-888-987-1098</span><br/><br/>
 
 
+                           <i className="fa fa-envelope-open mail">
+                             </i>
+                           <span className="spn">amrit.....@gmail.com</span>
 
-                        <div className="col-xs-6">
-                            <input className="form-control" placeholder="Email"/>
-                        </div><br/><br/><br/>
 
-                        <div className="col-xs-6">
-                            <input className="form-control" placeholder="Phone Number"/>
-                        </div><br/><br/><br/>
-                        <div className="col-xs-6">
+                       </div>
+                       <div className="col-lg-8 lcont">
+
+                           <form>
+                               <div className="col-xs-6">
+                                   <input className="form-control" placeholder="Name"/>
+                               </div><br/><br/><br/>
+
+
+
+                               <div className="col-xs-6">
+                                   <input className="form-control" placeholder="Email"/>
+                               </div><br/><br/><br/>
+
+                               <div className="col-xs-6">
+                                   <input className="form-control" placeholder="Phone Number"/>
+                               </div><br/><br/><br/>
+                               <div className="col-xs-6">
                         <textarea rows="4" cols="50" className="form-control" placeholder="Message">
                           </textarea>
-                        </div><br/>
-                        <br/><br/>
+                               </div><br/>
+                               <br/><br/>
 
-                        <div className="btn btn-primary">Send</div>
+                               <div className="btn btn-primary">Send</div>
 
-                    </form>
-                </div>
-                </div>
-            </div>
+                           </form>
+                       </div>
+                   </div>
+
+               <div className="row">
+                   <div className=" col-sm-12 map ">
+                       <img src={Images} className="map.jpg img"/>
+                   </div>
+               </div>
+               </div>
 
         )
     }

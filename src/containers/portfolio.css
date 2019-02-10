@@ -1,3 +1,5 @@
+
+
 .About
 {
     padding-left: 520px;
@@ -6,16 +8,13 @@
 
 .second_row_about{
 
-    height:700px;
+    height:750px;
     width:100%;
     background-color: gray();
 
 
 }
-.spn
-{
 
-}
 .border
 {
     font-weight:bold;
@@ -34,8 +33,9 @@
 .third_row_education
 {
     height:650px;
-    background-image: url("../images/skill.jpg");
-    background-repeat: no-repeat;
+    background-color: rgba(221,206,175,0.13);
+    //background-image: url("../images/skill.jpg");
+    //background-repeat: no-repeat;
 
 }
 
@@ -60,6 +60,10 @@
 .girl_image
 {
 margin-top: 80px;
+}
+.panel
+{
+    margin-top: 20px;
 }
 .paragraph
 {
@@ -98,9 +102,18 @@ margin-top: 80px;
 
 .img
 {
-    width:100%;
+    width:50%;
 }
 .tit
 {
     padding-left: 50px;
+}
+
+.pan
+{
+    width:200px;
+}
+.cd
+{
+    margin-left: 10px;
 }

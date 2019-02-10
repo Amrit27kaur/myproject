@@ -3,14 +3,13 @@
     height:400px;
 }
 
-.nav ul li
+.colr
 {
-    padding-left: 20px;
-
-
+    color:darkred;
 }
 
-.wow
+.amrit
 {
-
+    margin-bottom: 180px;
+    font-family:Times New Roman, Times, serif;
 }

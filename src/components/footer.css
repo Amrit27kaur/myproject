@@ -1,14 +1,13 @@
 .footer1
 {
-    background-color: #282c34;
+
+    background-color:#262626;
     height: 300px;
+
+
 }
 
-.footer2
-{
-    background-color: dimgray;
-    height: 100px;
-}
+
 .f2
 {
      padding-left: 550px;
@@ -38,22 +37,58 @@
 
 .web
 {
-    margin-top: 70px;
-    color: aliceblue;
-    padding-left: 20px;
-}
-.fb
-{
-    font-size: 36px;
-    margin:10px;
+    margin-top: 120px;
+    color: white;
+    font-family:Times New Roman, Times, serif;
 
 }
+
 .github
 {
     font-size: 36px;
-    margin-right:10px;
+    color:white;
+    padding: 10px;
+    margin-left:50px;
 }
 .link
 {
     font-size: 36px;
+    color:white;
+    padding: 10px;
+}
+
+.loca1{
+    font-size:24px;
+    color: white;
+    margin-top:30px;
+    margin-left:30px;
+}
+.span1
+{
+    color:white;
+    padding-left:10px;
+    font-family:Times New Roman, Times, serif;
+    padding-left:60px;
+
+}
+.col
+{
+    margin-top: 60px;
+}
+.span{
+    color:white;
+    padding-left:10px;
+    font-family:Times New Roman, Times, serif;
+}
+.phone1{
+    font-size:24px;
+    color:white;
+    margin-top:30px;
+    margin-left:30px;
+}
+.mail1
+{
+    font-size:36px;
+    color:white;
+    padding :10px;
 }

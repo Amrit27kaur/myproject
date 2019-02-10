@@ -7,33 +7,40 @@ const footer = (props) => {
 
        <div>
            <div className="row footer1">
-               <div className="col-lg-offset-1 col-md-offset-2 col-sm-offset-2 col-lg-4 col-md-4 col-sm-4">
-                   <h1 className="loc">LOCATION</h1>
-                   <span className="add">1 Beaconcrest road,<br/> </span><span className="add1"> Brampton, L6y0y8.</span>
+
+               <div className="col-lg-offset-1 col-md-offset-2 col-sm-offset-2 col-lg-4 col-md-4 col-sm-4 col">
+
+                   <i className="fa fa-map-marker loca1"></i>
+                   <span className="span">21 Arrow Street,<br/></span>
+                   <span className="span1">Brampton, ON.</span>
+                   <br/><br/>
+
+                   <i className="fa fa-phone phone1"></i>
+                   <span className="span">1-888-987-1098</span><br/><br/>
+
+
+
+
+
 
                </div>
 
                <div className="col-lg-6 col-md-6 col-sm-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-                   <h1 className="web">AROUND THE WEB</h1>
-                   <li className="list-inline-item">
-                       <a className="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                   <h2 className="web">AROUND THE WEB</h2>
 
 
-                          <i className="	fa fa-github-square github"></i>
-                           <i className="	fa fa-linkedin-square link"></i>
-                       </a>
-                   </li>
+                          <i className="fa fa-github-square github"></i>
+                           <i className="fa fa-linkedin-square link"></i>
+                            <i className="fa fa-google-plus-square mail1"></i>
+
+
 
                </div>
 
 
            </div>
 
-           <div className="row footer2">
-               <div className="col-lg-12">
-                   <span className="f2"><strong>Copyright © Your Website 2018</strong></span>
-               </div>
-           </div>
+
        </div>
     );
 

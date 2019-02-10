@@ -1,5 +1,4 @@
-import React from 'react'
-;
+import React from 'react';
 import classes from './navigation.css'
 import LaImg from '../images/la.jpg'
 import Images from '../images/img.jpg'
@@ -7,6 +6,7 @@ import Portfolio from  '../containers/portfolio'
 import Contact from './contact'
 import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
+import {Animated} from "react-animated-css";
 
 const navigation = (props) => {
 
@@ -26,8 +26,9 @@ const navigation = (props) => {
                     <div className="item active">
                         <img src={LaImg}  className="images"/>
                         <div className="carousel-caption">
-
-                            <h3>Amrit Kaur</h3>
+                            <Animated animationIn="flip" animationOut="zoomOut" isVisible={true}>
+                                <h2 className="amrit">Hello. I'm <span className="colr">AMRIT KAUR</span>.<br/>I'm web developer.</h2>
+                            </Animated>
                         </div>
                     </div>
                 </div>

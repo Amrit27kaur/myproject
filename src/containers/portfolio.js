@@ -2,6 +2,8 @@ import React,{Component} from 'react';
 import classes from './portfolio.css'
 import Images from "../images/img.jpg";
 import Images1 from "../images/edu.jpg";
+import {Animated} from "react-animated-css";
+
 class Portfolio extends Component{
 
     render() {
@@ -16,14 +18,16 @@ class Portfolio extends Component{
 
                         <div className="row">
                             <div className="col-lg-offset-1 col-lg-3 image">
-                                <img src={Images}  className="img-circle girl_image"/>
+                                <Animated animationIn="zoomIn" animationOut="zoomOut" isVisible={true}>
+                                    <img src={Images}  className="img-circle girl_image"/></Animated>
                             </div>
                             <div className="col-lg-7 col-lg-offset-1 writing">
 
 
                                 <div className="panel">
-                                <div class="panel panel-default">
-                                    <div class="panel-body paragraph">I have always sought out opportunities and challenges that are meaningful
+                                <div className="panel panel-default">
+
+                                    <div className="panel-body paragraph">I have always sought out opportunities and challenges that are meaningful
                                         to me. Although my professional path has taken many twists and turns but i have never stopped engaging my passion
                                         to help others and solve problems.
                                         <br/>As a Application Developer(Mobile Web Specialist), i enjoy using my obsessive attention to detail,
@@ -32,14 +36,14 @@ class Portfolio extends Component{
                                 </div>
                                 </div>
 
-                                <div className="personal-information col s12 m12">
+                                <div className="personal-information ">
                                     <h3 className="personal_infor">Personal Information</h3>
 
-                                        <li className="border"><span className="spn">Name :</span>Amrit Kaur</li>
-                                        <li className="border"><span className="spn">Age :</span>26 Years</li>
-                                        <li className="border"><span>Phone :</span>+01254689</li>
-                                        <li className="border"><span>Email :</span>amrit@gmail.com</li>
-                                        <li className="border"><span>Address :</span>Brampton,ON</li>
+                                        <li className="border"><span>Name : </span>Amrit Kaur</li>
+                                        <li className="border"><span>Age : </span>26 Years</li>
+                                        <li className="border"><span>Phone : </span>+01254689</li>
+                                        <li className="border"><span>Email : </span>amrit@gmail.com</li>
+                                        <li className="border"><span>Address : </span>Brampton,ON</li>
 
                                 </div>
 
@@ -109,52 +113,6 @@ class Portfolio extends Component{
                 </section>
 
 
-            <section id="section_education1">
-                 <div id = "section_eduaction1">
-                    <div className="row fourth_row_education">
-
-                        <div className="col-lg-12">
-                            <h1 className="Education">Education</h1>
-                        </div>
-
-
-                        <div className="col-lg-3 cd">
-
-                            <div className="panel-group">
-
-                                <div className="panel panel-default">
-                                    <h4 className="panel-heading">2007-2010</h4>
-
-
-                                <div className="panel-body">
-                                <img src={Images1} />
-                                </div>
-
-                                    <h5 className="panel-footer"><strong>Polytechnic College</strong></h5>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div className="col-lg-3 cd">
-
-                        </div>
-
-                        <div className="col-lg-3 cd">
-
-                        </div>
-
-                        <div className="col-lg-3 cd">
-
-                        </div>
-
-                    </div>
-
-                 </div>
-
-            </section>
 
             </div>
 
