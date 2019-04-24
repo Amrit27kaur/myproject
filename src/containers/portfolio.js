@@ -47,7 +47,7 @@ class Portfolio extends Component{
 
                                 </div>
 
-                                <a href="/Resume.pdf" class="waves-effect waves-light btn-large resume-btn" >
+                                <a href="/Amrit_Resume.pdf" class="waves-effect waves-light btn-large resume-btn" >
                                 <i className="mdi-content-archive left"></i>
                                     Download Resume</a>
 
@@ -66,23 +66,16 @@ class Portfolio extends Component{
                     <div className="col-lg-12">
                         <h1 className="Education">My Skills</h1>
 
-                        <h5 className="skill"><strong>HTML</strong></h5>
+                        <h5 className="skill"><strong>HTML, CSS & BootStrap</strong></h5>
                         <div className="progress pro_info">
                             <div className="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40"
                                  aria-valuemin="0" aria-valuemax="100" style={{width:'90%'}}>
-                                90%
+                                100%
                             </div>
                         </div>
 
-                        <h5 className="skill"><strong>JavaScript</strong></h5>
-                        <div className="progress pro_info">
-                            <div className="progress-bar progress-bar-info progress-bar-striped active"
-                                  aria-valuemax="100" style={{width:'91%'}}>
-                                91%
-                            </div>
-                        </div>
 
-                        <h5 className="skill"><strong>C++</strong></h5>
+                        <h5 className="skill"><strong>C, C++</strong></h5>
                         <div className="progress pro_info">
                             <div className="progress-bar progress-bar-warning progress-bar-striped active"
                                  aria-valuemax="100" style={{width:'90%'}}>
@@ -101,6 +94,54 @@ class Portfolio extends Component{
                         <h5 className="skill"><strong>Java</strong></h5>
                         <div className="progress pro_info">
                             <div className="progress-bar progress-bar-success progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                90%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>JQuery & JavaScript</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-info progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                90%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>JSON, Linux and Apache</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-warning progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                90%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>PHP, Laravel</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-success progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                85%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>WordPress</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-danger progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                95%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>SQL/TSQL, XML</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-success progress-bar-striped active"
+                                 aria-valuemax="100" style={{width:'90%'}}>
+                                90%
+                            </div>
+                        </div>
+
+                        <h5 className="skill"><strong>Android, SQLite</strong></h5>
+                        <div className="progress pro_info">
+                            <div className="progress-bar progress-bar-info progress-bar-striped active"
                                  aria-valuemax="100" style={{width:'90%'}}>
                                 90%
                             </div>

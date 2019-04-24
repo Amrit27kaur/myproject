@@ -29,9 +29,9 @@ const footer = (props) => {
                    <h2 className="web">AROUND THE WEB</h2>
 
 
-                          <i className="fa fa-github-square github"></i>
+                         <a href="#" ><i className="fa fa-github-square github"></i>
                            <i className="fa fa-linkedin-square link"></i>
-                            <i className="fa fa-google-plus-square mail1"></i>
+                             <i className="fa fa-google-plus-square mail1"></i></a>
 
 
 
