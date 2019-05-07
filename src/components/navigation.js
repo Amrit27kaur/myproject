@@ -7,12 +7,17 @@ import Contact from './contact'
 import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import {Animated} from "react-animated-css";
+import Video from '../images/video.mp4'
 
 const navigation = (props) => {
 
     return(
 
         <div>
+
+
+
+
 
             <div id="myCarousel" className="carousel slide" data-ride="carousel">
 
@@ -24,7 +29,10 @@ const navigation = (props) => {
 
                 <div className="carousel-inner">
                     <div className="item active">
-                        <img src={LaImg}  className="images"/>
+                        <video autoPlay muted loop className="images">
+                            <source src={Video} type="video/mp4" />
+                        </video>
+
                         <div className="carousel-caption">
                             <Animated animationIn="flip" animationOut="zoomOut" isVisible={true}>
                                 <h2 className="amrit">Hello. I'm <span className="colr">AMRIT KAUR</span>.<br/>I'm web developer.</h2>
